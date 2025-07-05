@@ -30,12 +30,8 @@ vendor/firmware/bcm4361B2_murata.hcd
 vendor/firmware/bcm4361B2_semco.hcd
 
 # Camera
-#vendor/lib/camera.device@3.2-impl.so
-#vendor/lib/camera.device@3.4-impl.so
 vendor/lib/libexynoscamera3.so
 vendor/lib/hw/camera.exynos9810.so
-#vendor/lib64/camera.device@3.2-impl.so
-#vendor/lib64/camera.device@3.4-impl.so
 vendor/lib64/libexynoscamera3.so
 vendor/lib64/hw/camera.exynos9810.so
 
