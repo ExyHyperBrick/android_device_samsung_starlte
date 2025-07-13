@@ -21,11 +21,6 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/lib/hw/audio.primary.exynos9810.so': blob_fixup()
-        .replace_needed('libvndsecril-client.so', 'libsecril-client.so')
-        .replace_needed('libaudioroute.so', 'libaudioroute-samsung.so')
-        .add_needed('libshim_audioparams.so')
-        .binary_regex_replace(b'str_parms_get_str', b'str_parms_get_mod'),
     (
         'vendor/lib/libwrappergps.so',
         'vendor/lib64/libwrappergps.so',
