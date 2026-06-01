@@ -4396,8 +4396,8 @@
 	</path>
 
 	<path name="gain-communication-speaker-mic">
-		<ctl name="IN3L Digital Volume" value="140" />
-		<ctl name="IN4L Digital Volume" value="144" />
+		<ctl name="IN3L Digital Volume" value="170" />
+		<ctl name="IN4L Digital Volume" value="174" />
 	</path>
 
 	<path name="gain-communication-dual-speaker-mic">
