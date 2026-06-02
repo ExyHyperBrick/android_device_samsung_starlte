@@ -1748,7 +1748,7 @@
 
 	<!-- voice input -->
 	<path name="recording-mic">
-		<path name="media-mic" />
+		<path name="media-main-mic" />
 	</path>
 
 	<path name="recording-2nd-mic">
